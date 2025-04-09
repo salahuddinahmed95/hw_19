@@ -1,0 +1,219 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+   /* header */
+   header {
+    padding: 5px 0;
+   }
+   .logo{
+    width: 180px;
+   }
+   .menu ul li a {
+   color: var(--bl) !important;
+   padding: 0 0 5px 10px !important;
+    }
+    /* banner */
+  .b_text{
+  text-align: center;
+ }
+ .bh1{
+  margin: 10px 40px 20px;
+  font-size: 20px;
+  line-height: 22px;
+ }
+ .bp2{
+  margin: 0 10px;
+  line-height: 20px;
+ }
+ .b_img{
+  margin: 0 50px 30px;
+ }
+  /* feature  */
+
+  .c_p {
+    padding-bottom: 50px;
+   }
+   .f_item {
+    margin-top: 30px;
+   }
+   .f_h2 {
+ 
+    font-size: 16px;
+   }
+    /* course start */
+    .c_course{
+      margin: 30px 0 0;
+      padding: 10px 10px 20px;
+    }
+  
+  
+ 
+
+    .sli{
+  margin-right: 0px !important;
+ }
+ .c_h2{
+  font-size: 22px;
+ }
+}
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+  /* header */
+    header {
+    padding: 5px 0;
+   }
+   .logo{
+    width: 180px;
+   }
+
+   .menu ul li a {
+   color: var(--bl) !important;
+   padding: 0 0 5px 10px !important;
+    }
+ /* banner */
+.b_text{
+  text-align: center;
+ }
+ .bh1{
+  margin: 10px 100px 20px;
+  font-size: 30px;
+  line-height: 35px;
+ }
+ .bp2{
+  margin: 0 55px;
+  line-height: 20px;
+ }
+ .b_img{
+  margin: 0 50px 30px;
+ }
+ .c_p {
+  padding-bottom: 60px;
+ }
+ 
+ 
+  /* feature  */
+
+  .c_p {
+    padding-bottom: 60px;
+   }
+   .f_item {
+    margin-top: 30px;
+   }
+ .f_h2 {
+  
+  font-size: 20px;
+ }
+  /* course start */
+  .c_course {
+    margin: 50px 80px 0px;
+  }
+  .c_h2{
+    font-size: 25px;
+   }
+    /* footer top start */
+ .footer_top{
+  text-align: center;
+ }
+ .ft_info1{
+  margin-bottom: 30px;
+  padding-right: 80px;
+  padding-left: 80px;
+ }
+
+}
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+  /* header */
+  .menu ul li a {
+    color: var(--bl) !important;
+    padding: 0 0 5px 10px !important;
+ }
+
+ /* banner */
+ .b_text{
+  text-align: center;
+ }
+ .bh1{
+  margin: 10px 130px 20px;
+  font-size: 40px;
+  line-height: 50px;
+ }
+ .bp2{
+  margin: 0 100px;
+  line-height: 30px;
+ }
+ .b_img{
+  margin: 0 50px 30px;
+ }
+ /* feature  */
+
+ .c_p {
+  padding-bottom: 80px;
+ }
+ .f_item {
+  margin-top: 30px;
+ }
+
+ /* course start */
+  .c_course{
+      margin: 60px 100px 0px;
+  }
+ .c_h2{
+  font-size: 30px;
+ }
+ /* footer top start */
+ .footer_top{
+  text-align: center;
+ }
+ .ft_info1{
+  margin-bottom: 30px;
+  padding-right: 80px;
+  padding-left: 80px;
+ }
+
+ 
+}
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+  /* banner */
+  .bh1{
+    margin: 10px 60px 20px 0;
+  }
+  /* course start */
+     .s_course{
+      padding: 0%20px 15px 25px;
+     }
+     .c_left ul li img, .c_right ul li img{
+      width:21px;
+     }
+     .c_left ul li span, .c_right ul li span{
+      font-size: 15px;
+      font-weight: 500;
+    }
+     .sli{
+      margin-right: 0px !important;
+     }
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+
+/* banner */
+  .bh1{
+    margin: 10px 50px 20px 0;
+  }
+
+}
+
+
+
+
+/* Extra extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1400px) { 
+    /* footer top start */
+    .ft_info1{
+      padding-right: 130px;
+     }
+  }
